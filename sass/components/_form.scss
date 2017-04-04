@@ -1,0 +1,18 @@
+.form{
+  .form-row{
+    margin-bottom: 20px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  .form-item{
+    p:empty{
+      display: none;
+    }
+    label{
+      color: #fff;
+    }
+  }
+}
